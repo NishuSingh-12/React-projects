@@ -1,8 +1,10 @@
+import Header from "./components/Header";
+import "./App.css";
 function App() {
   return (
-    <div>
-      <h1>Product landing Page</h1>
-    </div>
+    <>
+      <Header />
+    </>
   );
 }
 export default App;
