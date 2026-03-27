@@ -1,16 +1,33 @@
-# React + Vite
+# 🏠 Landing Page (Brand UI)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **responsive brand landing page** built using React and CSS.
+The design is inspired by a modern product landing page (Nike-style UI).
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Clean and modern UI
+- Responsive design (mobile + desktop)
+- Navigation bar with menu items
+- Hero section with product image
+- Call-to-action buttons (Shop Now, Category)
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- CSS
 
-## Expanding the ESLint configuration
+## 🎯 Learning Outcome
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Learned how to convert Figma design into React UI
+- Practiced layout using Flexbox
+- Improved component structure and reusability
+
+## 📸 Preview
+
+![Desktop](public/images/desktop.png)
+![Mobile](public/images/mobile.png)
+
+## ⭐ Author
+
+Nishu Singh
