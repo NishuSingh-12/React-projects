@@ -1,9 +1,10 @@
 import "./App.css";
+import Navigation from "./components/Navigation/Navigation";
 
 const App = () => {
   return (
     <div>
-      <h1>Contact page</h1>
+      <Navigation />
     </div>
   );
 };
