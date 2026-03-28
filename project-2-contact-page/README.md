@@ -1,16 +1,41 @@
-# React + Vite
+# 📞 Contact Us UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive **Contact Us page UI** built using React.  
+It demonstrates component reusability, props handling, conditional rendering, and scoped styling using CSS Modules.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Clean and modern UI design
+- Reusable Button Component
+- Props used to pass dynamic data
+- Conditional rendering for different button styles
+- CSS Modules for scoped styling
+- Contact form with input fields
+- Simple and responsive layout
 
-## React Compiler
+## 🧠 What I Learned
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Creating reusable components in React
+- Using props for dynamic UI
+- Conditional rendering based on props
+- Using CSS Modules to avoid style conflicts
+- Writing modular and maintainable code
 
-## Expanding the ESLint configuration
+## 🎨 Styling Approach
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Used **CSS Modules** for each component
+- Avoided global CSS conflicts
+- Improved code maintainability and scalability
+
+## 🛠️ Tech Stack
+
+- React.js
+- CSS Modules
+
+## Screenshot
+
+![Desktop](./public/images/desktop.png)
+
+## ⭐ Author
+
+Nishu Singh
