@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   height: 42px;
+  padding: 10px;
 }
 .navigation ul {
   display: flex;

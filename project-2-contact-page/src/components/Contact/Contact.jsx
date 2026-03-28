@@ -14,18 +14,44 @@ const Contact = () => {
           EMAIL, OR SOCIAL MEDIA.{" "}
         </p>
       </div>
-      <div className={styles.btn_container}>
-        <Button
-          text="VIA SUPPORT CHAT"
-          icon={<MdMessage fontSize={"24px"} />}
-        />
-        <Button text="VIA CALL" icon={<MdCall fontSize={"24px"} />} />
-      </div>
-      <Button
-        isSecondry={true}
-        text="VIA EMAIL FORM"
-        icon={<MdEmail fontSize={"24px"} />}
-      />
+      <main className={styles.main}>
+        <div>
+          <div className={styles.btn_container}>
+            <Button
+              text="VIA SUPPORT CHAT"
+              icon={<MdMessage fontSize={"24px"} />}
+            />
+            <Button text="VIA CALL" icon={<MdCall fontSize={"24px"} />} />
+          </div>
+          <Button
+            isSecondry={true}
+            text="VIA EMAIL FORM"
+            icon={<MdEmail fontSize={"24px"} />}
+          />
+          <form action="#">
+            <div className={styles.input_container}>
+              <label htmlFor="name">Name</label>
+              <input type="text" name="name" id="name" />
+            </div>
+            <div className={styles.input_container}>
+              <label htmlFor="email">E-Mail</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div className={styles.input_container}>
+              <label htmlFor="textarea">TEXT</label>
+              <textarea
+                rows={10}
+                cols={32}
+                name="textarea"
+                id="textarea"
+              ></textarea>
+            </div>
+          </form>
+        </div>
+        <div className={styles.service_img_container}>
+          <img src="./public/images/Service.svg" alt="service-image" />
+        </div>
+      </main>
     </section>
   );
 };
