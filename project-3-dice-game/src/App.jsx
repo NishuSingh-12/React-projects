@@ -1,5 +1,14 @@
+import { useState } from "react";
+import PlayGame from "./components/PlayGame";
+import StartGame from "./components/StartGame";
+
 function App() {
-  return <h1>App</h1>;
+  const [show, setShow] = useState(false);
+  return (
+    <main className=".container">
+      {show ? <PlayGame /> : <StartGame startGame={() => setShow(true)} />}
+    </main>
+  );
 }
 
 export default App;
