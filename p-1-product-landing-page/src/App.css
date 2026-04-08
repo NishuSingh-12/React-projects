@@ -2,11 +2,13 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .main-container {
   max-width: 1240px;
   margin: 0 auto;
 }
+/* Navbar componet styles */
 .nav-container {
   display: flex;
   align-items: center;
@@ -32,6 +34,7 @@
   font-weight: bold;
   border-radius: 4px;
   border: none;
+  font-family: inherit;
 }
 .login-btn:hover {
   background-color: rgb(240, 20, 20);
@@ -39,6 +42,42 @@
   transition: color 0.2s ease-in-out;
 }
 .nav-container ul li:hover {
-  color: blue;
+  color: red;
   transition: color 0.2s ease-in-out;
+}
+/* Hero component styles */
+.Hero-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8rem;
+}
+.Hero-container h1 {
+  font-size: 96px;
+  line-height: 6rem;
+  width: 600px;
+}
+.Hero-container p {
+  font-size: 14px;
+  width: 400px;
+  margin-top: 32px;
+  color: gray;
+}
+.btn-container {
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
+}
+.btn {
+  padding: 8px 14px;
+  border-radius: 4px;
+  border: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+.category-btn {
+  background-color: transparent;
+  color: gray;
+  border: 2px solid gray;
 }
