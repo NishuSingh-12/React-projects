@@ -1,7 +1,9 @@
+import Navbar from "./components/Navbar";
+import "./App.css";
 function App() {
   return (
-    <div>
-      <h1>Product Landing Page</h1>
+    <div className="main-container">
+      <Navbar />
     </div>
   );
 }
