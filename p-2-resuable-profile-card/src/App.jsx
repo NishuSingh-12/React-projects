@@ -1,4 +1,11 @@
+import Card from "./components/Card";
+import "./App.css";
+
 function App() {
-  return "";
+  return (
+    <div className="flex-container">
+      <Card />
+    </div>
+  );
 }
 export default App;
