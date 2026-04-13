@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div className="flex-container">
-      <Card />
+      <Card name="Nishu" title="Front-End developer" bio="Responsive Degian" />
     </div>
   );
 }

@@ -1,9 +1,9 @@
-function Card() {
+function Card({ name, title, bio }) {
   return (
     <div className="card">
-      <h1> Nishu</h1>
-      <p className="card-title"> Front-End developer</p>
-      <p>I can make responsive website</p>
+      <h1>{name}</h1>
+      <p className="card-title">{title}</p>
+      <p>{bio}</p>
     </div>
   );
 }
