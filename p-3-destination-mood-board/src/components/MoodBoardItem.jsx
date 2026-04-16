@@ -1,11 +1,8 @@
-function MoodBoardItem() {
+function MoodBoardItem({ image, color, description }) {
   return (
-    <div className="mood-board-item">
-      <img
-        src="https://cdn.freecodecamp.org/curriculum/labs/pathway.jpg"
-        alt="img"
-      />
-      <h3>Caribbean</h3>
+    <div className="mood-board-item" style={{ backgroundColor: color }}>
+      <img src={image} alt="img" />
+      <h3>{description}</h3>
     </div>
   );
 }
