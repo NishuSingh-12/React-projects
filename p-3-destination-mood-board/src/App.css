@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: antiquewhite;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.heading {
+  text-align: center;
+  font-size: 48px;
+  margin-top: 32px;
+}
+.mood-board-item {
+  max-width: 300px;
+  height: 320px;
+  background-color: red;
+  padding: 32px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.mood-board-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+.mood-board-item h3 {
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+}

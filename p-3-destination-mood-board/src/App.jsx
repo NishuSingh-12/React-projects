@@ -1,8 +1,13 @@
+import "./App.css";
+import MoodBoardItem from "./components/MoodBoardItem";
 function App() {
   return (
-    <div>
-      <h1>Destination Mood Board</h1>
-    </div>
+    <>
+      <h1 className="heading">Destination Mood Board</h1>
+      <div className="flex-container">
+        <MoodBoardItem />
+      </div>
+    </>
   );
 }
 export default App;
