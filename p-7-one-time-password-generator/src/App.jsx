@@ -1,6 +1,11 @@
 import "./App.css";
+import OTPGenerator from "./components/OTPGenerator";
 function App() {
-  return <div>App</div>;
+  return (
+    <>
+      <OTPGenerator />
+    </>
+  );
 }
 
 export default App;

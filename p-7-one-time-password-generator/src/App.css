@@ -1,0 +1,41 @@
+body {
+  font-family: cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.container {
+  background-color: rgb(214, 238, 129);
+  padding: 20px 32px;
+  border-radius: 8px;
+  text-align: center;
+}
+.container h1 {
+  font-size: 44px;
+  color: blueviolet;
+}
+#sub-heading {
+  font-size: 22px;
+  color: brown;
+}
+#timer {
+  color: cadetblue;
+  font-size: 18px;
+}
+button {
+  background-color: brown;
+  color: white;
+  font-size: 18px;
+  padding: 12px 22px;
+  border-radius: 8px;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+button:hover {
+  background-color: white;
+  color: brown;
+  border: 2px solid brown;
+  transition: all 0.4s ease-in-out;
+}
