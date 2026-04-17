@@ -1,16 +1,44 @@
-# React + Vite
+# 🔘 Toggle Text App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and beginner-friendly React project that demonstrates **conditional rendering** and **state management** using a toggle button.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Toggle text between **Show** and **Hide**
+- Button label updates dynamically
+- Clean and simple UI
+- Uses React `useState` hook
+- Beginner-friendly logic
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript (ES6)
+- CSS
 
-## Expanding the ESLint configuration
+## Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![first](./public/images/first.png)
+![second](./public/images/second.png)
+
+## 📸 How It Works
+
+- Initially, the text is hidden
+- When the user clicks the button:
+  - Text becomes visible
+  - Button text changes to **"Hide Message"**
+
+- Clicking again:
+  - Text gets hidden
+  - Button text changes back to **"Show Message"**
+
+## 💡 Learning Outcome
+
+This project helped me understand:
+
+- How **state works in React**
+- How to use **conditional rendering**
+- Handling **button click events**
+- Writing clean and reusable components
+
+✨ This is a small project but a great step towards mastering React basics.
