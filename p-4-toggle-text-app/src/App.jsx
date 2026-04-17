@@ -1,8 +1,9 @@
 import "./App.css";
+import ToggleApp from "./components/ToggleApp";
 function App() {
   return (
     <>
-      <h1>Toggle-Text-App</h1>
+      <ToggleApp />
     </>
   );
 }
